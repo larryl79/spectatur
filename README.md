@@ -1,3 +1,5 @@
+# original: https://codeberg.org/xelalexv/spectratur
+
 # spectratur
 
 #### *keyboard actuator for vintage computers*
