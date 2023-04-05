@@ -31,7 +31,7 @@ A *Combo* is a 1-to-many mapping. That is, you can assign several target keys to
 A *Macro* is a shortcut for a sequence of key presses that can be assigned to a key on the external keyboard. This macro key must not be part of the core mapping. When the macro key is typed, it triggers a sequence of key presses and releases being sent to the target. A macro may contain combos. The *Sinclair ZX Spectrum* target for example, maps `F3` on the external keyboard to the macro `LOAD *"b"`, the command for loading a program via the serial port.
 
 ## Hardware
-Here's the schematic using an *Arduino Nano*. When using a different *Arduino*, you may have to change the port assignments in [spectratur.ino](src/spectratur.ino) and [mt8808.cpp](src/mt8808.cpp). How you connect the `X` and `Y` pins of the *MT8808* to the target keyboard depends on your particular target machine. Also, when using an *MT8812* or *MT8816*, you need to run an additional connection from `A5` on the *Arduino* to `AX3` on the *MT88xx*. The connectors `KB1` and `KB2` shown here are the keyboard connectors of a *Sinclair ZX Spectrum*.
+Here's the schematic using an *Arduino Nano*. When using a different *Arduino*, you may have to change the port assignments in [spectratur.ino](src/spectratur.ino) and [mt8808xx.cpp](src/mt8808xx.cpp). How you connect the `X` and `Y` pins of the *MT8808* to the target keyboard depends on your particular target machine. Also, when using an *MT8812* or *MT8816*, you need to run an additional connection from `A5` on the *Arduino* to `AX3` on the *MT88xx*. The connectors `KB1` and `KB2` shown here are the keyboard connectors of a *Sinclair ZX Spectrum*.
 
 ![schematic](doc/spectratur_schem.png)
 
